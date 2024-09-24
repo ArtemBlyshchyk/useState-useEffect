@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   line-height: 1.5;
+  padding: 10px;
 }
 
 h1,
@@ -23,8 +24,8 @@ p {
 button {
   margin: 0;
   padding: 0;
-  background: transparent;
-  border: none;
+  /* background: transparent;
+  border: none; */
   cursor: pointer;
 }
 

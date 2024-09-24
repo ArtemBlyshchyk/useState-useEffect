@@ -1,0 +1,9 @@
+.feedbackContainers {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feedbackContainers p {
+  font-size: 22px;
+}

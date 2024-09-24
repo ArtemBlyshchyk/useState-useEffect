@@ -1,0 +1,17 @@
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btnContainer button {
+  padding: 5px;
+  font-size: 22px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btnContainer button:hover {
+  background-color: lightgray;
+}
