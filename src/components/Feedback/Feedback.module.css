@@ -4,6 +4,6 @@
   flex-direction: column;
   gap: 10px;
 }
-.feedbackContainers p {
+.feedbackContainers li {
   font-size: 22px;
 }
