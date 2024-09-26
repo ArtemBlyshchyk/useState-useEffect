@@ -1,4 +1,6 @@
 import css from "./Feedback.module.css";
+import PropTypes from "prop-types";
+
 const Feedback = ({ values, onTotalFeedback, onPositiveFeedback }) => {
   return (
     <ul className={css.feedbackContainers}>
@@ -9,6 +11,16 @@ const Feedback = ({ values, onTotalFeedback, onPositiveFeedback }) => {
       <li>Positive: {onPositiveFeedback}%</li>
     </ul>
   );
+};
+
+Feedback.propTypes = {
+  values: PropTypes.shape({
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
+  }),
+  onTotalFeedback: PropTypes.number.isRequired,
+  onPositiveFeedback: PropTypes.number.isRequired,
 };
 
 export default Feedback;
